@@ -1,0 +1,41 @@
+.App {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.spell-list {
+  width: 40%;
+}
+
+.spell-list .spell {
+  margin-left: 1rem;
+  padding: 0.5rem;
+  padding-bottom: 0.3rem;
+  display: flex;
+}
+
+.spell-list .spell-name {
+  width: 30%;
+}
+
+.spell-list .spell-action{
+	width: 10%;
+}
+
+.spell-list .spell.label {
+  border-bottom: 1px solid;
+}
+
+.spell-list .spell.item:nth-child(odd) {
+  background-color: #eee;
+}
+
+.action {
+  cursor: pointer;
+  color: #99f
+}
+
+.spell-count-left {
+	color: #aaa;
+}
+

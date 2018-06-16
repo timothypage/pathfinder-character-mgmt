@@ -1,0 +1,94 @@
+[
+	{
+		"name": "Acid Splash",
+		"level": 0
+	},
+	{
+		"name": "Arcane Mark",
+		"level": 0
+	},
+	{
+		"name": "Dancing Lights",
+		"level": 0
+	},
+	{
+		"name": "Daze",
+		"level": 0
+	},
+	{
+		"name": "Detect Magic",
+		"level": 0
+	},
+	{
+		"name": "Disrupt Undead",
+		"level": 0
+	},
+	{
+		"name": "Flare",
+		"level": 0
+	},
+	{
+		"name": "Ghost Sound",
+		"level": 0
+	},
+	{
+		"name": "Light",
+		"level": 0
+	},
+	{
+		"name": "Mage Hand",
+		"level": 0
+	},
+	{
+		"name": "Open/Close",
+		"level": 0
+	},
+	{
+		"name": "Prestidigitation",
+		"level": 0
+	},
+	{
+		"name": "Ray of Frost",
+		"level": 0
+	},
+	{
+		"name": "Read Magic",
+		"level": 0
+	},
+	{
+		"name": "Spark",
+		"level": 0
+	},
+	{
+		"name": "Magic Missle",
+		"level": 1
+	},
+	{
+		"name": "Shield",
+		"level": 1
+	},
+	{
+		"name": "Mirror Strike",
+		"level": 1
+	},
+	{
+		"name": "Enlarge Person",
+		"level": 1
+	},
+	{
+		"name": "Shocking Grasp",
+		"level": 1
+	},
+	{
+		"name": "Color Spray",
+		"level": 1
+	},
+	{
+		"name": "Feather Fall",
+		"level": 1
+	},
+	{
+		"name": "Grease",
+		"level": 1
+	}
+]
