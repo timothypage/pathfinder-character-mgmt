@@ -1,0 +1,38 @@
+[
+  {
+  	"name": "Climb"
+  },
+  {
+  	"name": "Craft"
+  },
+  {
+  	"name": "Fly"
+  },
+  {
+  	"name": "Intimidate"
+  },
+  {
+  	"name": "Knowledge (Arcana)"
+  },
+  {
+  	"name": "Knowledge (Dungeoneering)"
+  },
+  {
+  	"name": "Knowledge (Planes)"
+  },
+  {
+  	"name": "Profession"
+  },
+  {
+  	"name": "Ride"
+  },
+  {
+  	"name": "Spellcraft"
+  },
+  {
+  	"name": "Swim"
+  },
+  {
+  	"name": "Use Magic Device"
+  }
+]

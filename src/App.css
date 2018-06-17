@@ -1,10 +1,27 @@
+body {
+  background-color: #eee;
+}
+
 .App {
   max-width: 1150px;
   margin: 0 auto;
 }
 
-.spell-list {
-  width: 40%;
+.card {
+  border: 1px solid #aaa;
+  background-color: white;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  float: left;
+}
+
+.card.full {
+  width: 94.5%;
+}
+
+.card.half {
+  width: 45%;
 }
 
 .spell-list .spell {
@@ -18,8 +35,12 @@
   width: 30%;
 }
 
-.spell-list .spell-action{
+.spell-list .spell-action {
 	width: 10%;
+}
+
+.spell-dmg {
+	width: 20%;
 }
 
 .spell-list .spell.label {
@@ -37,5 +58,35 @@
 
 .spell-count-left {
 	color: #aaa;
+}
+
+.abilities .ability {
+  display: flex;
+  margin-left: 1rem;
+  padding: 0.5rem;
+  padding-bottom: 0.3rem;
+}
+
+.abilities .ability > div {
+  width: 20%;
+}
+
+.abilities .ability:nth-child(even) {
+  background-color: #eee;
+}
+
+.ability-name {
+  font-weight: 700;
+}
+
+.skills .skill {
+  margin-left: 1rem;
+  padding: 0.5rem;
+  padding-bottom: 0.3rem;
+  display: flex;
+}
+
+.skills .skill:nth-child(odd) {
+	background-color: #eee;
 }
 

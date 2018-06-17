@@ -7,13 +7,14 @@ const SpellGroup = ({level, spells, castSpell, spellCount}) => (
   <div>
     <div className="spell label">
       <div className="spell-name">Name</div>
-      <div className="spell-type">Type</div>
+      <div className="spell-dmg">Dmg</div>
     </div>
 
       {_.sortBy(spells, 'name').map(spell => (
       <div className="spell item" key={spell.name}>
         <div className="spell-name">{spell.name}</div>
-        <div className="spell-action"><span className="action" onClick={() => castSpell(level)}>Cast</span></div>
+        <div className="spell-dmg"></div>
+        <div className="spell-action">{spellCount > 0 ? <span className="action" onClick={() => castSpell(level)}>Cast</span> : null}</div>
       </div>
       ))}
   </div>
